@@ -11,6 +11,7 @@
   inputs.src-nimroutine-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-nimroutine-v0_1_2.owner = "rogercloud";
   inputs.src-nimroutine-v0_1_2.repo  = "nim-routine";
+  inputs.src-nimroutine-v0_1_2.dir   = "";
   inputs.src-nimroutine-v0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

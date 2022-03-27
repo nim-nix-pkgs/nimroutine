@@ -11,6 +11,7 @@
   inputs.src-nimroutine-develop.ref   = "refs/heads/develop";
   inputs.src-nimroutine-develop.owner = "rogercloud";
   inputs.src-nimroutine-develop.repo  = "nim-routine";
+  inputs.src-nimroutine-develop.dir   = "";
   inputs.src-nimroutine-develop.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
